@@ -1,16 +1,124 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive weather application built with **React** and **Vite** that provides current weather information for searched locations using the **OpenWeather API**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🌍 Search weather by city
+- 🌡️ Displays current temperature
+- ☁️ Displays current weather conditions
+- 💧 Shows humidity
+- 💨 Shows wind speed
+- ⏳ Loading state while fetching weather data
+- ⚠️ Error handling for invalid locations
+- 📱 Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React
+- JavaScript
+- Vite
+- CSS
+- OpenWeather API
+
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/sayak027/weather-app.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd weather-app
+```
+
+### 3. Install dependencies
+
+Install all the required dependencies for the project:
+
+```bash
+npm install
+```
+
+### 4. Configure the API key
+
+Create a .env file in the project root directory and add your OpenWeather API key:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+
+Markdown
+🔒 Keep your API key private and never commit the .env file to GitHub.
+
+
+### 5. Start the development server
+
+Run the following command:
+
+```bash
+npm run dev
+```
+
+The terminal will provide a local development URL, usually:
+
+http://localhost:5173
+
+Open the URL in your browser to start using the application.
+
+
+## 📦 Build for Production
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+
+## 🌐 API
+
+This project uses the OpenWeather API to fetch current weather data based on the searched city.
+
+
+## 🎯 Purpose
+
+This project was built to practice and demonstrate:
+
+- React development
+- API integration
+- Asynchronous JavaScript
+- Loading and error handling
+- Working with environment variables
+- Responsive UI development
+
+
+## 📁 Project Structure
+
+weather-app/
+├── public/
+├── src/
+├── .env
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
+
+
+⭐ If you find this project useful, consider giving it a star!
+
+
