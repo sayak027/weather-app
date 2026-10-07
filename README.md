@@ -52,9 +52,10 @@ npm install
 
 Create a .env file in the project root directory and add your OpenWeather API key:
 
+```text
 VITE_WEATHER_API_KEY=your_api_key_here
+```
 
-Markdown
 🔒 Keep your API key private and never commit the .env file to GitHub.
 
 
@@ -68,7 +69,9 @@ npm run dev
 
 The terminal will provide a local development URL, usually:
 
+```
 http://localhost:5173
+```
 
 Open the URL in your browser to start using the application.
 
@@ -90,7 +93,7 @@ npm run preview
 
 ## 🌐 API
 
-This project uses the OpenWeather API to fetch current weather data based on the searched city.
+This project uses the **OpenWeather API** to fetch current weather data based on the searched city.
 
 
 ## 🎯 Purpose
@@ -107,6 +110,7 @@ This project was built to practice and demonstrate:
 
 ## 📁 Project Structure
 
+```
 weather-app/
 ├── public/
 ├── src/
@@ -117,6 +121,7 @@ weather-app/
 ├── package-lock.json
 ├── README.md
 └── vite.config.js
+```
 
 
 ⭐ If you find this project useful, consider giving it a star!
