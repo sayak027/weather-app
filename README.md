@@ -3,6 +3,11 @@
 A responsive weather application built with **React** and **Vite** that provides current weather information for searched locations using the **OpenWeather API**.
 
 
+## 🔗 Live Demo
+
+[View Weather App](https://weather-appinfo.vercel.app/)
+
+
 ## ✨ Features
 
 - 🌍 Search weather by city
